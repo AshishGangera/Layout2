@@ -1,0 +1,544 @@
+.rounded-pill {
+    align-items: flex-end;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+.logo {
+    height: 19%;
+    width: 19%;
+    padding-bottom: 60px;
+    padding-left: 30px;
+}
+
+.com {
+    padding-top: 47px;
+}
+
+.name {
+    padding-top: 47px;
+    padding-left: 15px;
+}
+
+.container-fluid {
+    height: 280px;
+}
+
+.navbar-brand {
+    display: flex;
+    font-size: 60px;
+}
+
+.box {
+    position: absolute;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.we {
+    background-color: rgba(1, 121, 111, 0.800);
+    height: 190%;
+    width: 70%;
+    position: absolute;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    color: white;
+    text-align: center;
+    font-size: 5rem;
+    padding-top: 75px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    height: 100%;
+    width: 100.8%;
+}
+
+.column1 {
+    float: left;
+    width: 55%;
+    padding: 5px;
+    height: 535px;
+}
+
+.our {
+    color: rgba(1, 121, 111);
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.number {
+    display: flex;
+    color: orangered;
+    font-size: 110px;
+    padding-left: 50px;
+    margin-top: -25px;
+}
+
+.ser {
+
+    color: black;
+    margin-top: 45px;
+}
+
+.lorem {
+    color: rgba(80, 116, 128, );
+    font-size: 15px;
+    width: 95%;
+    text-align: justify;
+}
+
+.column2 {
+    float: left;
+    width: 37%;
+    height: 565px;
+}
+
+.column {
+    float: left;
+    width: 103%;
+    height: 60px;
+}
+
+.about {
+    color: white;
+    text-align: center;
+    margin-top: 9px;
+
+}
+
+.text {
+    font-size: 17px;
+    text-align: justify;
+    margin-top: 10px;
+    word-spacing: 7px;
+}
+
+.row1 {
+    padding: 25px;
+}
+
+.bottom {
+    margin-top: 55px;
+    height: 20px;
+}
+
+/* Add this media query for screens larger than 2560px */
+@media screen and (min-width: 2560px) {
+    .container-fluid {
+        max-width: 2560px; /* Limit container width to 2560px */
+    }
+
+    .logo {
+        height: auto;
+        width: 20%; /* Adjust logo width */
+        padding-left: 50px; /* Adjust logo padding */
+    }
+
+    .navbar-brand {
+        font-size: 90px; /* Adjust navbar brand font size */
+    }
+
+    .we {
+        height: 245%;
+        width: 75%; /* Adjust WE div width */
+        font-size: 130px; /* Adjust WE font size */
+        padding-top: 90px; /* Adjust WE padding */
+    }
+
+    .column1 {
+        width: 50%; /* Adjust column1 width */
+        height: auto;
+    }
+
+    .our {
+        font-size: 50px; /* Adjust OUR SERVICES font size */
+        padding-top: 70px; /* Adjust OUR SERVICES padding */
+    }
+
+    .number {
+        font-size: 100px; /* Adjust number font size */
+        padding-left: 100px; /* Adjust number padding */
+        margin-top: -30px; /* Adjust number margin */
+    }
+
+    .column2 {
+        width: 45%; /* Adjust column2 width */
+        height: auto;
+    }
+
+    .column {
+        width: 100%; /* Adjust column width */
+    }
+
+    .about {
+        margin-top: 15px; /* Adjust ABOUT US and CONTACT US margin */
+    }
+
+    .text {
+        font-size: 20px; /* Adjust text font size */
+        word-spacing: 10px; /* Adjust word spacing */
+    }
+}
+
+
+/* leptop l size */
+@media (max-width: 1440px) {
+    .logo {
+        padding-bottom: 45px;
+    }
+}
+
+/* Leptop size */
+@media (max-width: 1024px) {
+    .bottom {
+        margin-top: 135px;
+    }
+
+    .logo {
+        height: 17%;
+        width: 17%;
+        padding-bottom: 30px;
+        padding-left: 30px;
+    }
+
+    .com {
+        padding-top: 40px;
+    }
+
+    .name {
+        padding-top: 40px;
+        padding-left: 15px;
+    }
+
+    .navbar-brand {
+        font-size: 38px;
+    }
+
+    .container-fluid {
+        height: 200px;
+    }
+
+    .we {
+        font-size: 60px;
+        height: 190%;
+        width: 70%;
+        padding-top: 55px;
+    }
+
+    .number {
+        font-size: 110px;
+        padding-left: 50px;
+        margin-top: -25px;
+    }
+
+    .ser {
+        font-size: 18px;
+    }
+
+    .lorem {
+        font-size: 14px;
+        width: 95%;
+        text-align: justify;
+    }
+}
+
+/* Tablet size */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 28px;
+    }
+
+    .logo {
+        height: 12%;
+        width: 12%;
+        padding-bottom: 30px;
+        padding-left: 5px;
+    }
+
+    .com {
+        padding-top: 28px;
+    }
+
+    .name {
+        padding-top: 28px;
+        padding-left: 10px;
+    }
+
+    .container-fluid {
+        height: 100%;
+    }
+
+    .rounded-pill {
+        width: 90px;
+    }
+
+    .we {
+        font-size: 40px;
+        height: 200%;
+        padding-top: 30px;
+    }
+
+    .number {
+        font-size: 117px;
+        padding-left: 50px;
+        margin-top: -25px;
+    }
+
+    .ser {
+        font-size: 19px;
+    }
+
+    .lorem {
+        font-size: 9.5px;
+        width: 95%;
+        text-align: justify;
+    }
+
+    .text {
+        font-size: 13px;
+        word-spacing: 6px;
+    }
+
+    .about {
+        font-size: 20px;
+    }
+
+    .row1 {
+        padding: 17px;
+    }
+
+    .our {
+        font-size: 30px;
+        padding-top: 30px;
+    }
+
+    .bottom {
+        margin-top: 20px;
+    }
+}
+
+/* mobile l size */
+@media only screen and (max-width: 426px) {
+    .navbar-brand {
+        font-size: 15px;
+    }
+
+    .logo {
+        height: auto;
+        width: 15%;
+        padding-bottom: 20px;
+        padding-left: 10px;
+    }
+
+    .com,
+    .name {
+        padding-top: 18px;
+        padding-left: 5px;
+    }
+
+    .container-fluid {
+        height: auto;
+    }
+
+    .we {
+        height: 180%;
+        width: 70%;
+        padding-top: 25px;
+        font-size: 25px;
+    }
+
+    .our {
+        padding-top: 30px;
+    }
+
+    .column1 {
+        width: 100%;
+    }
+
+    .column2 {
+        width: 100%;
+        height: 405px;
+        padding-left: 23px;
+    }
+
+    .number {
+        font-size: 70px;
+        padding-left: 20px;
+        margin-top: -15px;
+    }
+
+    .ser {
+        margin-top: 25px;
+    }
+
+    .lorem {
+        font-size: 12px;
+    }
+
+    .about {
+        margin-top: 5px;
+    }
+
+    .text {
+        font-size: 12px;
+        word-spacing: 4px;
+    }
+    .bottom {
+        margin-top: 40px;
+        height: 20px;
+    }
+}
+
+/* mobile m size */
+@media (max-width: 376px) {
+    .logo {
+        width: 15%;
+        padding-bottom: 20px;
+        padding-top: 2px;
+        padding-left: 5px;
+    }
+
+    .com,
+    .name {
+        padding-top: 20px;
+        font-size: 12px;
+    }
+
+    .container-fluid {
+        height: auto;
+    }
+
+
+    .we {
+        height: 170%;
+        width: 85%;
+        padding-top: 25px;
+        font-size: 25px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    
+    .column2 {
+        width: 100%;
+        margin-top: 20px;
+        padding-left: 22px;
+    }
+
+    .number {
+        font-size: 80px;
+        padding-left: 20px;
+        margin-top: -10px;
+    }
+
+    .our {
+        font-size: 25px;
+        padding-top: 12px;
+    }
+
+    .ser {
+        margin-top: 20px;
+    }
+
+    .lorem {
+        font-size: 12px;
+    }
+
+    .about {
+        margin-top: 5px;
+        font-size: 20px;
+    }
+
+    .text {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    .row1 {
+        padding: 10px;
+    }
+
+    .bottom {
+        margin-top: 45px;
+        height: 10px;
+        margin-left: 9px;
+    }
+}
+
+/* mobile s size */
+@media (max-width: 321px) {
+    .logo {
+        height: auto;
+        width: 17%;
+        padding-left: 15px;
+    }
+
+    .com,
+    .name {
+        padding-top: 15px;
+        font-size: 10px;
+    }
+
+    .navbar-brand {
+        font-size: 30px;
+    }
+
+    .we {
+        height: 170%;
+        width: 80%;
+        font-size: 20px;
+        padding-top: 22px;
+    }
+
+    .our {
+        font-size: 20px;
+        padding-top: 10px;
+    }
+
+    .number {
+        font-size: 50px;
+        padding-left: 15px;
+        margin-top: -15px;
+    }
+
+    .ser {
+        margin-top: 17px;
+    }
+
+    .lorem {
+        font-size: 9px;
+        width: 100%;
+    }
+
+    .column1{
+        height: 345px;
+    }
+
+    .column2 {
+        margin-top: 50px;
+        width: 100%;
+        padding-left: 20px;
+    }
+
+    .text {
+        font-size: 13px;
+        margin-top: 10px;
+    }
+
+    .bottom {
+        height: 10px;
+        margin-left: 9px;
+    }
+}
